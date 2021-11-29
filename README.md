@@ -23,6 +23,14 @@ export default () => {
   );
 };
 ```
+### 参考链接：
+Mocha官网: [https://mochajs.cn/#min](https://mochajs.cn/#min)
+
+阮一峰mpcha 教程: [https://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html](https://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
+
+project-libs: [https://github.com/cpagejs/project-libs](https://github.com/cpagejs/project-libs)
+
+[https://segmentfault.com/a/1190000011966867](https://segmentfault.com/a/1190000011966867)
 
 ---
 ### 函数库开发过程中遇到的问题汇总
@@ -40,3 +48,4 @@ SyntaxError: Cannot use import statement outside a module
 
 解决方案简单来说，就是新建个 `tsconfig.test.json` 把里面的 `module`字段设置为`commonjs`
 
+--- 

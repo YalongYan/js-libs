@@ -14,7 +14,6 @@ export { default as urlGet } from './browser/urlGet';
 export { default as urlParams } from './browser/urlParams';
 
 // 时间
-export { default as sleep } from './time/sleep';
 export { default as timestamp } from './time/timestamp';
 export { default as timeBeauty } from './time/timeBeauty';
 export { default as getDay } from './time/getDay';
@@ -47,4 +46,3 @@ export { default as isMobile } from './is/isMobile';
 export { default as isIP } from './is/isIP';
 export { default as isIDCard } from './is/isIDCard';
 export { default as isPostCode } from './is/isPostCode';
-export { default as isQQNumber } from './is/isQQNumber';
