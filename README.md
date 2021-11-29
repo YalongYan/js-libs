@@ -1,9 +1,34 @@
-# js-libs
+### tbl-js-libs
 typescript 实现的js常用函数库
 
+### 背景
+日常开发中，有不少常用且通用的js函数，为了方便后续的复用，所以需要一个js函数库
+
+### 该函数库特性
+- 基于typescript， 类型声明、提示齐全，无缝接入ts项目
+- 打包模式为ES模块， 天然支持 tree-shaking，避免多余代码 
+- 基于mocha进行单元测试，更稳定、可靠
+
+### 使用方法
+`npm i tbl-js-libs -S` 安装依赖
+```
+import { isEmpty } from 'tbl-js-libs';
+
+export default () => {
+  console.log(isEmpty([1, 2, 3]))
+  return (
+    <div className="homePage">
+      我是测试页面
+    </div>
+  );
+};
+```
+
+---
+### 函数库开发过程中遇到的问题汇总
 
 #### 问题一
-如下报错： 
+npm run test 如下报错： 
 ```
 import * as chai from 'chai';
 

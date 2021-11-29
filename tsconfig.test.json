@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     // esnext 是标准的 es module 格式
-    "module": "commonjs",
+    "module": "commonjs", // 就是这个, 运行单元测试的时候 要改成 commonjs 不然会报错
     // 编译后符合什么es版本
     "target": "es5",
     // 为每个ts文件 生成一个对应的 .d.ts 文件; 获得 ts 提示

@@ -1,7 +1,7 @@
 {
   "name": "tbl-js-libs",
   "version": "0.0.1",
-  "description": "js常用函数库",
+  "description": "typescript实现 js常用函数库",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -12,8 +12,7 @@
     "test": "env TS_NODE_PROJECT=\"tsconfig.test.json\" mocha --require ts-node/register test/*.test.ts"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "author": "tangbolong",
   "repository": {
