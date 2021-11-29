@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    // esnext 是标准的 es module 格式
     "module": "commonjs", // 就是这个, 运行单元测试的时候 要改成 commonjs 不然会报错
     // 编译后符合什么es版本
     "target": "es5",
@@ -11,8 +10,6 @@
     "noImplicitAny": true,
     "lib":["es5", "dom", "dom.iterable", "es2015", "es2016", "es2017"],
     "jsx": "react",
-    // // classic node 两种选项, node 就会 从nodeModule 里面找对应的模块； classic 会使用绝对路径，导致找不到对应的npm模块
-    // "moduleResolution":"Node",
   },
   "include": [
     "src"

@@ -1,6 +1,6 @@
 {
   "name": "tbl-js-libs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typescript实现 js常用函数库",
   "private": false,
   "main": "dist/index.js",
