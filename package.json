@@ -1,0 +1,31 @@
+{
+  "name": "tbl-js-libs",
+  "version": "0.0.1",
+  "description": "js常用函数库",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "clean": "rimraf ./dist"
+  },
+  "files": ["dist", "src"],
+  "author": "tangbolong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YalongYan/js-libs"
+  },
+  "keywords": [
+    "utils",
+    "libs",
+    "js-libs",
+    "tbl-js-libs"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "rimraf": "^3.0.1"
+  },
+  "homepage": "https://github.com/YalongYan/js-libs"
+}
