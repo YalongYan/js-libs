@@ -7,8 +7,15 @@
 
 ### 该函数库特性
 - 基于typescript， 类型声明、提示齐全，无缝接入ts项目
-- 打包模式为 ES module 模式， 天然支持 tree-shaking，避免多余代码 
+- 打包模式为 ES Module 模式， 天然支持 tree-shaking，避免多余代码 
 - 基于mocha进行单元测试，更稳定、可靠
+
+### 使用条件
+不管是vue react， 只要是基于 ES Module 规范都可以使用
+
+### 什么是ES Module规范
+简单来说就是 import 加载模块，export 导出模块
+关于js模块化可以看这里： [https://www.jianshu.com/p/0494f0e1a507](https://www.jianshu.com/p/0494f0e1a507)
 
 ### 为什么不打包成umd格式的代码
 - 目前我所有的项目都是基于es module 开发的，不需要umd格式的
