@@ -14,7 +14,8 @@
 不管是vue react， 只要是基于 ES Module 规范都可以使用
 
 ### 什么是ES Module规范
-简单来说就是 import 加载模块，export 导出模块
+简单来说就是 import 加载模块，export 导出模块, 平常基于webpack开发的项目都是基于此规范，所以都可以用
+
 关于js模块化可以看这里： [https://www.jianshu.com/p/0494f0e1a507](https://www.jianshu.com/p/0494f0e1a507)
 
 ### 为什么不打包成umd格式的代码
