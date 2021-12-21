@@ -46,3 +46,7 @@ export { default as isMobile } from './is/isMobile';
 export { default as isIP } from './is/isIP';
 export { default as isIDCard } from './is/isIDCard';
 export { default as isPostCode } from './is/isPostCode';
+
+// 转换
+export { default as formatNumber } from './transform/formatNumber';
+export { default as formatPercent } from './transform/formatPercent';
